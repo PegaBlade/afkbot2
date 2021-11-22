@@ -1,0 +1,48 @@
+{
+    "bot-account":{ 
+        "username": "afkbot3021",
+        "password": "afkbot3021",
+        "type": "mojang"
+    },
+
+    "server":{
+        "ip": "PixelatedLifesteal.aternos.me",
+        "port": 18406,
+        "version": "1.17.1"
+    },
+
+    "position":{
+        "enabled": false,
+        "x": 23,
+        "y": 102,
+        "z": 4171
+    },
+
+    "utils":{
+        "auto-auth":{
+            "enabled": false,
+            "password": "12345678"
+        },
+
+        "anti-afk":{
+            "enabled": true,
+            "sneak": true
+        },
+
+        "chat-messages":{
+            "enabled": true,
+            "repeat": true,
+            "repeat-delay": 360,
+
+            "messages": [
+                "Afkbot makes sure server dosen't go offline ", 
+                "lol, 
+                "Hi, 
+                "Test "
+            ]
+        },
+
+        "chat-log": true,
+        "auto-reconnect": true
+    }
+}
